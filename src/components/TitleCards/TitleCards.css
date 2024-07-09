@@ -1,0 +1,26 @@
+.title-cards {
+    width: 100%;
+    overflow: hidden; /* Hide the scrollbar */
+    cursor: pointer; /* Cursor style for grab */
+  }
+  
+  .card-list {
+    display: flex; /* Arrange items in a row */
+    gap: 10px; /* Space between cards */
+  }
+  
+  .card {
+    min-width: 400px; /* Fixed width for each card */
+    flex-shrink: 0; /* Prevent shrinking */
+  }
+  
+  .card img {
+    width: 100%; /* Image takes up full width of the card */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .card p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
